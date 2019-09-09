@@ -8,7 +8,7 @@ function ScoreBoard(props) {
   return (
     <section className='scoreboard'>
       <TopRow homeHook={props.homeHook} awayHook={props.awayHook} />
-      <BottomRow />
+      <BottomRow quaterHook={props.quaterHook} />
     </section>
   );
 }
