@@ -5,7 +5,7 @@ import ScoreBoard from './components/score-board/score-board.component';
 import ScoreButtons from './components/score-buttons/score-buttons.component';
 import QuaterButton from './components/quater-button/quater-button.component';
 
-function App() {
+const App = () => {
   const homeHook = useState(0);
   const awayHook = useState(0);
   const quaterHook = useState(1);
@@ -20,6 +20,6 @@ function App() {
       </section>
     </div>
   );
-}
+};
 
 export default App;

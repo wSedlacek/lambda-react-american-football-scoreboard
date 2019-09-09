@@ -1,7 +1,7 @@
 import React from 'react';
 import './score-buttons.style.css';
 
-function ScoreButtons(props) {
+const ScoreButtons = props => {
   const scoreHandler = add => {
     props.hook[1](props.hook[0] + add);
   };
@@ -16,6 +16,6 @@ function ScoreButtons(props) {
       </button>
     </div>
   );
-}
+};
 
 export default ScoreButtons;

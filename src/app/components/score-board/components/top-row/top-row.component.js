@@ -1,7 +1,7 @@
 import React from 'react';
 import './top-row.style.css';
 
-function TopRow(props) {
+const TopRow = props => {
   return (
     <div className='topRow'>
       <div className='home'>
@@ -16,6 +16,6 @@ function TopRow(props) {
       </div>
     </div>
   );
-}
+};
 
 export default TopRow;
