@@ -1,0 +1,10 @@
+.scoreButtons {
+  display: flex;
+  flex-direction: column;
+}
+
+.scoreButtons__touchdown,
+.scoreButtons__fieldGoal {
+  margin: 1rem;
+  border-radius: 4px;
+}
